@@ -22,7 +22,7 @@ namespace Ex3_Laborator4_
             }
 
             int[,] rezultatInmultire = InmultireMatrice(matrice1, matrice2);
-            Console.WriteLine("Matricea rezultata din inmulitirea este: ");
+            Console.WriteLine("Matricea rezultata din inmulitire este: ");
             for (int i = 0; i < rezultatInmultire.GetLength(0); i++)
             {
                 for (int j = 0; j < rezultatInmultire.GetLength(1); j++)
