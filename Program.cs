@@ -12,17 +12,6 @@ namespace Ex3_Laborator4_
             //tastaura.Scrieti o functie care va calcula produsul celor doua matrici, apelati-o si afisati-I
             //rezultatul.
 
-            //Console.WriteLine("Introduceti numarul de linii pentru fiecare matrice: ");
-            //int n = int.Parse(Console.ReadLine());
-            //Console.WriteLine("Introduceti numarul de coloane pentru fiecare matrice: ");
-            //int m = int.Parse(Console.ReadLine());
-
-            //if (n != m)
-            //{
-            //    Console.WriteLine("Numarul de coloane al primei matrice trebuie sa fie egal cu numarul de linii al celei de a doua matrice");
-            //    return;
-            //}
-
             int[,] matrice1 = CitireMatrice();
             int[,] matrice2 = CitireMatrice();
 
